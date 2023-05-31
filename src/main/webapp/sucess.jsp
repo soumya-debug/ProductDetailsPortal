@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -39,6 +38,10 @@ body {
 	color: #198754;
 	margin-bottom: 20px;
 }
+
+.button-container {
+	margin-top: 20px;
+}
 </style>
 </head>
 <body>
@@ -46,6 +49,9 @@ body {
 		<div class="success-message">
 			<span class="success-icon">&#10004;</span>
 			<h1>Product inserted successfully</h1>
+			<div class="button-container">
+				<a href="index.jsp" class="btn btn-primary">Insert Another Product</a>
+			</div>
 		</div>
 	</div>
 	<script
